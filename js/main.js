@@ -61,5 +61,5 @@ const mains = games
 
 render(games);
 //render(mains);
-
+//ludikomentar
 loading.remove();
