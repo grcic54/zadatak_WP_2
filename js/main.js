@@ -55,11 +55,11 @@ function render(items) {
     list.append(fragment);
 }
 
-const mains = games
-    .filter(game => game.category === "glavno jelo")
+const FPS = games
+    .filter(game => game.category === "FPS")
     .sort((a, b) => a.name.localeCompare(b.name));
 
 render(games);
-//render(mains);
+//render(FPS);
 //ludikomentar
 loading.remove();
